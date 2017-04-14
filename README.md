@@ -23,7 +23,7 @@ I noticed that with a fresh project, this exception didn't occur:
 ;;=> << {:a 1} >>
 ```
 
-so the problem was probably in the combination of one of our other libraries with Manifold.
+So the problem was probably in the combination of one of our other libraries with Manifold.
 Because we have quite a few dependencies I decided it was too much work bisecting them by hand.
 Clojure.spec and Boot to the rescue!
 
