@@ -1,6 +1,6 @@
 # dependency-problem
 
-## Solving a dependency problem with clojure.spec and boot.
+## Diagnosing a dependency problem with clojure.spec and boot.
 
 ![](diagnose.gif)
 
