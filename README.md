@@ -34,4 +34,14 @@ If the script would return an exit code other than zero, we would have found the
 
 ## Running
 
-Clone this repo and run `boot diagnose` to run the clojure.spec.test test or `boot confirm` to see the failing example..
+Clone this repo and run `boot diagnose` to run the clojure.spec.test test or `boot confirm` to see the failing example.
+
+## Funding
+
+This software was commissioned and sponsored by [Doctor Evidence](http://doctorevidence.com/). The Doctor Evidence mission is to improve clinical outcomes by finding and delivering medical evidence to healthcare professionals, medical associations, policy makers and manufacturers through revolutionary solutions that enable anyone to make informed decisions and policies using medical data that is more accessible, relevant and readable.
+
+## License
+
+Copyright Michiel Borkent 2017.
+
+Distributed under the Eclipse Public License either version 1.0 or (at your option) any later version.
