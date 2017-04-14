@@ -1,0 +1,24 @@
+#!/usr/bin/env boot
+
+(def base-dependencies
+  '[[org.clojure/clojure "1.8.0"]
+    [aleph "0.4.1"]])
+
+(def dependencies
+  '{{dependencies|safe}} )
+
+(set-env!
+ :dependencies
+ (into base-dependencies dependencies))
+
+(require '[manifold.deferred :as d])
+(require '[clojure.test :as t])
+
+(t/deftest manifold-test
+  (t/is (= {:a 1}
+           @(d/let-flow
+                [a (d/success-deferred {:a 1})]
+              a))))
+
+(defn -main [& args]
+  (t/run-tests))
